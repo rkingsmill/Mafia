@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MiniGameViewController.h
 //  Mafia
 //
 //  Created by Rosalyn Kingsmill on 2016-05-11.
@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Player.h"
 
+@interface MiniGameViewController : UIViewController
 
-@interface ViewController : UIViewController
-
-
+@property (weak,nonatomic) Player *player;
 
 @end
-

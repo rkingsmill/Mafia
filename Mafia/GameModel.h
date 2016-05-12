@@ -1,18 +1,13 @@
 //
-//  ViewController.h
+//  GameModel.h
 //  Mafia
 //
 //  Created by Rosalyn Kingsmill on 2016-05-11.
 //  Copyright © 2016 Rosalyn Kingsmill. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "Player.h"
+#import <Foundation/Foundation.h>
 
-
-@interface ViewController : UIViewController
-
-
+@interface GameModel : NSObject
 
 @end
-

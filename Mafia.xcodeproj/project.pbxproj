@@ -13,6 +13,9 @@
 		5BA22ED51CE3E01700F2A0F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA22ED31CE3E01700F2A0F4 /* Main.storyboard */; };
 		5BA22ED71CE3E01700F2A0F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA22ED61CE3E01700F2A0F4 /* Assets.xcassets */; };
 		5BA22EDA1CE3E01700F2A0F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA22ED81CE3E01700F2A0F4 /* LaunchScreen.storyboard */; };
+		5BA22EE91CE3F9DE00F2A0F4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA22EE81CE3F9DE00F2A0F4 /* Player.m */; };
+		5BA22EEC1CE3FA1700F2A0F4 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA22EEB1CE3FA1700F2A0F4 /* GameModel.m */; };
+		5BA22EEF1CE3FB2900F2A0F4 /* MiniGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA22EEE1CE3FB2900F2A0F4 /* MiniGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		5BA22ED61CE3E01700F2A0F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA22ED91CE3E01700F2A0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA22EDB1CE3E01700F2A0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA22EE71CE3F9DE00F2A0F4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		5BA22EE81CE3F9DE00F2A0F4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		5BA22EEA1CE3FA1700F2A0F4 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		5BA22EEB1CE3FA1700F2A0F4 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		5BA22EED1CE3FB2900F2A0F4 /* MiniGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniGameViewController.h; sourceTree = "<group>"; };
+		5BA22EEE1CE3FB2900F2A0F4 /* MiniGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				5BA22ECE1CE3E01700F2A0F4 /* AppDelegate.m */,
 				5BA22ED01CE3E01700F2A0F4 /* ViewController.h */,
 				5BA22ED11CE3E01700F2A0F4 /* ViewController.m */,
+				5BA22EED1CE3FB2900F2A0F4 /* MiniGameViewController.h */,
+				5BA22EEE1CE3FB2900F2A0F4 /* MiniGameViewController.m */,
+				5BA22EE71CE3F9DE00F2A0F4 /* Player.h */,
+				5BA22EE81CE3F9DE00F2A0F4 /* Player.m */,
+				5BA22EEA1CE3FA1700F2A0F4 /* GameModel.h */,
+				5BA22EEB1CE3FA1700F2A0F4 /* GameModel.m */,
 				5BA22ED31CE3E01700F2A0F4 /* Main.storyboard */,
 				5BA22ED61CE3E01700F2A0F4 /* Assets.xcassets */,
 				5BA22ED81CE3E01700F2A0F4 /* LaunchScreen.storyboard */,
@@ -149,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA22EE91CE3F9DE00F2A0F4 /* Player.m in Sources */,
+				5BA22EEF1CE3FB2900F2A0F4 /* MiniGameViewController.m in Sources */,
 				5BA22ED21CE3E01700F2A0F4 /* ViewController.m in Sources */,
+				5BA22EEC1CE3FA1700F2A0F4 /* GameModel.m in Sources */,
 				5BA22ECF1CE3E01700F2A0F4 /* AppDelegate.m in Sources */,
 				5BA22ECC1CE3E01700F2A0F4 /* main.m in Sources */,
 			);
